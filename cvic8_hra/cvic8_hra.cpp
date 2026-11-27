@@ -181,7 +181,7 @@ void cvic8_hra::finishGame()
     ui.continuePushButton->setEnabled(false);
     ui.skipPushButton->setEnabled(false);
 
-    ui.doubleSpinBox->clear();
+    ui.doubleSpinBox->setValue(0);
     ui.questionTextEdit->clear();
 
     for (auto r : { ui.aRadioButton, ui.bRadioButton, ui.cRadioButton, ui.dRradioButton }) {
